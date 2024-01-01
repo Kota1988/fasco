@@ -1,0 +1,23 @@
+//цвет
+
+$default: #8d8d8d;
+
+//шрифт
+%Unbounded-300 {
+  font-family: 'Your-font', sans-serif;
+  font-weight: 400;
+}
+
+//кнопки, чекбоксы
+%btn {
+  cursor: pointer;
+}
+
+%checkbox-hidden,
+%radio-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}

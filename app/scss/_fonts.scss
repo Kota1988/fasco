@@ -1,0 +1,10 @@
+// 2 шрифт
+@font-face {
+  font-family: 'Your-font';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Your-font'),
+    url('../fonts/Your-font.woff2') format('woff2'),
+    url('../fonts/Your-font.woff') format('woff');
+  font-display: swap;
+}
