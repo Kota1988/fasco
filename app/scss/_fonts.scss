@@ -1,10 +1,39 @@
-// 2 шрифт
 @font-face {
-  font-family: 'Your-font';
+  font-family: 'Poppins-Regular';
   font-weight: 400;
   font-style: normal;
-  src: local('Your-font'),
-    url('../fonts/Your-font.woff2') format('woff2'),
-    url('../fonts/Your-font.woff') format('woff');
+  src: local('Poppins-Regular'),
+    url('../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/Poppins-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Poppins-Medium'),
+    url('../fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../fonts/Poppins-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Volkhov-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Volkhov-Regular'),
+    url('../fonts/Volkhov-Regular.woff2') format('woff2'),
+    url('../fonts/Volkhov-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DigitalNumbers-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('DigitalNumbers-Regular'),
+    url('../fonts/DigitalNumbers-Regular.woff2') format('woff2'),
+    url('../fonts/DigitalNumbers-Regular.woff') format('woff');
   font-display: swap;
 }
